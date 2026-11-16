@@ -14,3 +14,7 @@ def luas_segitiga(alas, tinggi):
     return 0.5 * alas * tinggi
 
 print(luas_segitiga(6, 8))
+
+# Variabel: tempat penyimpanan sementara di dalam memori komputer untuk menampung data/nilai
+nama_buah = ["apel", "jeruk", "mangga", "anggur", "pisang"]
+print(nama_buah)
