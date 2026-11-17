@@ -147,3 +147,14 @@ pi_float = float(pi)
 print("PI:", pi_float)
 print("Tipe data pi_float:", type(pi_float), "sebelumnya:", type(pi))
 
+# Konstanta pada Python: python tidak mengenal konsep konstanta
+## Pada pyhton menggunakan konvensi berupa: menamai variabel dengan huruf kapital dan menggunakan underscore apabila lebih dari satu kata
+PI = 3.14
+jari_jari = 7
+luas_lingkaran = PI * (jari_jari ** 2)
+print(f"Luas Lingkaran: {luas_lingkaran} cm\u00b2") 
+
+GRAVITY = 9.8 # dalam satuan m/s^2
+waktu_jatuh = 3
+kecepatan = GRAVITY * waktu_jatuh
+print(f"Kecepatan Jatuh: {kecepatan:.2f} m/s")
