@@ -58,3 +58,11 @@ print("murid3:", murid3)
 nama_murid, nilai_murid, mata_pelajaran = "Agus", 75, "Matematika" # menghasilkan nilai berbeda
 print("Nama:", nama_murid, "|", "Nilai:", nilai_murid, "|", "Mapel:", mata_pelajaran)
 
+# Swap variables: proses menukar data antara beberapa variabel
+x = 10
+y = 20
+print("x:", x, "|", "y:", y)
+
+x,y = y,x
+print("x:", x, "|", "y:", y)
+
