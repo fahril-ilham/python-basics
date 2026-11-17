@@ -66,3 +66,29 @@ print("x:", x, "|", "y:", y)
 x,y = y,x
 print("x:", x, "|", "y:", y)
 
+# Fungsi print(): untuk menampilkan/mencetak nilai di layar monitor
+## Menampilkan nilai di dalam variabel
+z = 1000
+print(z)
+## Antara fungsi print() dan string:
+### Menggunakan tanda kutip tunggal dan tanda kutip ganda
+print("Ini hari Selasa")
+print('Besok hari apa?')
+### Menggunakan escape character: karakter khusus untuk merubah makna dari karakter berikutnya
+print("Ini Budi \nItu Bapak Budi")
+### Menggunakan escape code: ANSI code
+print("\033[1;32;40m Tulisan ini berwarna \033[0m Tulisan ini kembali normal")
+### Menggunakan argument end: berfungsi menghilangkan karakter newline (baris baru) aturan default dari fungsi print()
+print("Halo", end="")
+print(" Dunia!")
+### Bekerja dengan Raw String: menampilkan string apa adanya
+print(r"Ini hari: \nSelasa")
+### Menggunakan tanda kutip tiga
+print('''Mawar itu merah
+Violet itu ungu''')
+### Memanfaatkan .format: meletakkan nilai/data ke dalam placeholder {...}
+print("Halo, nama saya {0} ini ayah saya {1}". format("Budi", "Adi"))
+print("Usia saya {1} tahun, hobi saya {0}". format("voli", 20))
+harga = "Ini harganya Rp{:,}" # separator pada angka
+print(harga . format(200000))
+
