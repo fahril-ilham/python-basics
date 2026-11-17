@@ -136,14 +136,12 @@ usia = 21
 usia_str = str(usia)
 print("Usia dia sekarang", usia_str)
 print("Tipe data usia_str:", type(usia_str), "sebelumnya:", type(usia))
-
-# Konversi tipe data string menjadi integer
+## Konversi tipe data string menjadi integer
 nilai = "70"
 nilai_int = int(nilai)
 print("Nilai:", nilai_int)
 print("Tipe data nilai_int:", type(nilai_int), "sebelumnya:", type(nilai))
-
-# Konversi tipe data string menjadi float
+## Konversi tipe data string menjadi float
 pi = "3.14"
 pi_float = float(pi)
 print("PI:", pi_float)
