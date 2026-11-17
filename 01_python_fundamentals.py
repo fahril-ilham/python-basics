@@ -92,3 +92,41 @@ print("Usia saya {1} tahun, hobi saya {0}". format("voli", 20))
 harga = "Ini harganya Rp{:,}" # separator pada angka
 print(harga . format(200000))
 
+# Tipe data numerik
+## Integer (int): bilangan bulat, contoh: 1, 2, 100
+## Float (float): bilangan pecahan, contoh: 0.1, 1.4, 3.14
+## Complex number: bilangan kompleks/bilangan imajiner, contoh: 10j, 5j, 1j
+
+# Bekerja dengan int, selain bilangan bulat dapat digunakan untuk membuat angka dengan tujuan khusus
+## Binary / Biner | Base 2 | Angka 0 dan 1
+base_2 = 0b100
+print("100 binary dari angka:", base_2)
+# base_2 = 0b2 # Error: karena binary hanya menggunakan angka 0 dan 1 saja
+# print("2 binary dari angka:", base_2)
+
+## Oct / Octal | Base 8 | Angka 0 hingga 7
+base_8 = 0o777
+print("777 octal dari angka:", base_8)
+# base_8 = 0o8 # Error: karena octal menggunakan angka 0 hingga 7
+# print("8 octal dari angka:", base_8)
+
+## Hexadecimal | Base 16 | Angka 0 hingga 9 dan huruf A hingga F
+base_16 = 0x9AF
+print("9AF hexadecimal dari angka:", base_16)
+# base_16 = 0x9G # Error: karena hexadecimal menggunakan angka 0 hingga 9 dan huruf A hingga F
+# print("9G hexadecimal dari angka:", base_16)
+
+## Menggunakan fungsi bin(), oct(), hex() untuk mengubah angka biasa menjadi binary, octal, atau hexadecimal
+print("Angka 9 binary-nya adalah: ", bin(9))
+print("Angka 9 octal-nya adalah: ", oct(9))
+print("Angka 9 hexadecimal-nya adalah: ", hex(9))
+
+# Bekerja dengan Bilangan Pecahan (float)
+angka_float = 255.0
+print("angka float yang ditulis langsung: ", angka_float)
+## memanfaatkan scientific notation
+angka_float = 2.55e2
+print("angka float menggunakan scietific notation: ", angka_float)
+angka_float = 2.55e-2
+print("angka float menggunakan pangkat negatif: ", angka_float)
+
