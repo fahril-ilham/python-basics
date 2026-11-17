@@ -44,3 +44,17 @@ print(hardware)
 ## Set (set): himpunan nilai unik yang tanpa urutan tertentu
 kata_kata = {"urip", "iku", "urup", "tapi", "dompetku", "redup"}
 print(kata_kata)
+
+# Assignment: instruksi membuat variabel dan memasukkan data ke dalam variabel tersebut
+## Assignment operator: proses assignment pada variabel dengan menggunakan operator tanda sama dengan (=)
+nilai_kkm = input("Silakan masukkan nilai kkm: ")
+print("Nilai kkm:", nilai_kkm)
+## Multiple assignment: memasukkan nilai ke dalam beberapa variabel sekaligus
+murid1 = murid2 = murid3 = 80 # menghasilkan nilai sama
+print("murid1:", murid1)
+print("murid2:", murid2)
+print("murid3:", murid3)
+
+nama_murid, nilai_murid, mata_pelajaran = "Agus", 75, "Matematika" # menghasilkan nilai berbeda
+print("Nama:", nama_murid, "|", "Nilai:", nilai_murid, "|", "Mapel:", mata_pelajaran)
+
