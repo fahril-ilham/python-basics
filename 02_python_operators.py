@@ -33,3 +33,17 @@ print("2 pangkat 8:", pangkat)
 modulus = 20%7 # operator modulus (%), menghasilkan sisa pembagian
 print("20 % 7:", modulus)
 
+## Operator Perbandingan: membandingkan nilai 2 operand, menghasilkan tipe data boolean (True atau False)
+operator1 = 5 == 6 # operator sama dengan
+print("5 == 6:", operator1)
+operator2 = "baju" != "kemeja" # operator tidak sama dengan
+print("baju != kemeja:", operator2)
+operator3 = 10 < 8 # operator kurang dari
+print("10 < 8:", operator3)
+operator4 = 8 > 3 # operator lebih dari
+print("8 > 3:", operator4)
+operator5 = 12 >= 10 # operator lebih dari atau sama dengan
+print("12 >= 10:", operator5)
+operator6 = 4 <= 3 # operator kurang dari atau sama dengan
+print("4 <= 3:", operator6)
+
