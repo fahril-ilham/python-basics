@@ -17,3 +17,19 @@ print(binary)
 
 ## Operator Ternary: menggunakan 3 operand
 
+## Operator Aritmatika / Operator Matematika
+penambahan = 3+7 # operator penambahan (+)
+print("3 ditambah 7:", penambahan)
+pengurangan = 9-4 # operator pengurangan (-)
+print("9 dikurang 4:", pengurangan)
+perkalian = 5*6 # operator perkalian (*)
+print("5 dikali 6:", perkalian)
+pembagian = 12/4 # operator pembagian (/)
+print("12 dibagi 4:", pembagian)
+floor_division = 11//5 # operator floor division (//), menghasilkan hasil bagi angka bulat
+print("11 // 5:", floor_division)
+pangkat = 2**8 # operator pangkat (**)
+print("2 pangkat 8:", pangkat)
+modulus = 20%7 # operator modulus (%), menghasilkan sisa pembagian
+print("20 % 7:", modulus)
+
